@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+.sp1{
+    /* position: static; 기본값 */
+    width: 400px;height: 50px;
+    background-color: #a5dd9b;
+    z-index: 10; /* position이 있어야 적용됨 */
+    position: relative;
+    top: 10px;
+}
+.sp2{
+    width: 400px;height: 50px;
+    background-color: #bd9bdd;
+    position: relative;
+    left: 30px; top: -10px;}
+.sp3{
+
+    width: 400px;height: 50px;
+    background-color: #dd9ba9;
+    top: 100px;
+}
+
+.absolute{}
+.absolute .owner{background-color: rgb(255, 0, 85); position: relative;}
+.absolute .owner .pet{
+    width: 400px;height: 50px;
+}
+.absolute .owner .ap1{background-color: rgb(208, 255, 0);
+position: absolute; left: 30px; top: 70px;
+z-index: 30;
+
+}
+.absolute .owner .ap2{background-color: lightcoral;}
+
+
+.absolute .owner2{background-color: rgb(0, 225, 255);
+    height: 50px;
+}

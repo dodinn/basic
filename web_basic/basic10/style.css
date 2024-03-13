@@ -1,0 +1,33 @@
+#이조상>div{padding-left: 50px;}
+/* #이조상>div.이지만{color: blue;}
+/* -> color, bgc는 이조상의 바로 밑 부하 이지만과 이지만 부하까지 상속 */
+#이조상>div.이지만{background-color: cyan;}
+#이조상>div.이지만 .막내{background-color: green;}
+#이조상>div.이지만>div{padding-left: 50px;}
+#이조상>div.이서윤>div{padding-left: 50px;}
+
+
+
+#이조상>.이지만{}
+/* -> 이조상의 바로 밑 부하 중 이지만 대답 */
+
+#이조상 .이소아{border: 2px solid orange;}
+
+#이조상>div.이지만 .이소아{border: 2px solid rgb(5, 9, 255);}
+/* -> 이조상의 바로 밑 div(지만,하윤,서윤) 중 이름이 이지만인 것 안에서 이소아 */
+
+#이조상>div .이지만 {border: 2px solid rgb(213, 5, 255);}
+/* -> 이조상 바로 밑 div 중 이지만 다 불러 */
+
+#이조상>div.이지만 {border: 2px solid rgb(255, 5, 5);}
+/* -> 이조상 바로 밑 div면서 이지만인 것 */
+
+#이조상 .이지만{}
+/* -> 이조상의 부하(하위요소) 중 이지만은 전부 대답 */
+
+
+/*
+> 내 바로 밑 부하
+띄어쓰기 : 내 부하들 전부
+.놀부 .형 : 클래스를 붙여 적을 때, 클래스명이 놀부이고 형인 것
+*/

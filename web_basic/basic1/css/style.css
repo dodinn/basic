@@ -1,0 +1,65 @@
+*{margin: 0;padding: 0;}
+
+/* padding:상하좌우
+padding:10px = (padding-top:10px,padding-right:10px,padding-left:10px,padding-bottom:10px)
+padding: 10px 20px; 위아래 좌우
+padding: 10px 20px 30px; 위 좌우 아래
+padding: 10px 20px 30px 40px; 위 오른쪽 왼쪽 아래(시계방향) = (padding-top:10px,padding-right:20px,padding-left:30px,padding-bottom:40px) */
+
+
+/* 아이디를 호출하는 방법
+앞에 #을 적고 뒤에 이름
+아이디는 전체 사이트에서 이름이 유일해야 한다(반복되면 안됨, 같은 이름이 있으면 안됨)
+아이디가 2개 이상 되면 안됨 ex) id="조상 일번" (X) */
+
+
+/* 태그에는 3가지 요소가 있다.
+1. block  --  부모의 넓이를 모두 차지, 공간의 개념
+2. inline  --  block 요소 안에 글자와 같은 성질을 가지는 요소, 공간(넓이)의 개념없음
+3. inline-block  --  block 요소 안에 글자와 같은 성질, 공간(넓이)의 개념 */
+
+
+
+.약::after{content:""; clear: both; display: block;}
+#조상{}
+#조상 .첫째{background-color: cadetblue;}
+
+#조상 .둘째{background-color: rgb(255, 197, 51);}
+/* ::before, ::after는 css에서 만드는 가상의 공간이며
+inline을 가진다.
+content: "";와 반드시 같이 공존한다 */
+#조상 .둘째::before{content: "💕";background-color: hotpink;}
+#조상 .둘째::after{content: "💕";}
+#조상 .둘째 em{background-color: cornflowerblue;width: 200px;}
+
+#조상 .셋째{background-color: crimson;
+margin-top: 50px; width: 1000px;
+margin-left: auto; margin-right: auto;
+}
+#조상 .셋째 .세일{background-color: greenyellow;width: 300px;float: left;}
+#조상 .셋째 .세이{background-color: orange;width: 300px;float: left;}
+#조상 .셋째 .세삼{background-color: yellow;width: 300px;float: left;}
+
+#조상 .넷째{background-color: rgb(228, 118, 173);
+width: 1245px;
+/* margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+margin: 위 좌우 아래; */
+margin: 50px auto auto;
+}
+#조상 .넷째 .child{width: 300px; height: 200px; float: left;
+margin-right: 15px;
+text-align: center;  /* 글자의 정렬 */
+line-height: 200px;  /* 행간 */
+font-size: 25px;  /* 글자의 크기 기본값 16px */
+font-weight: bold;  /* 글자의 두께 */
+}
+#조상 .넷째 .네일{background-color: navajowhite;
+background-image: url(../img/Layer1.png);
+}
+#조상 .넷째 .네이{background-color: tan;background-image: url(../img/Layer2.png);}
+#조상 .넷째 .네삼{background-color: thistle;background-image: url(../img/Layer3.png);transition: 0.3s;}
+#조상 .넷째 .네삼:hover{
+    background-image: url(../img/Layer4.png);}
+#조상 .넷째 .네사{background-color: indianred;margin-right: 0;background-image: url(../img/Layer4.png);}

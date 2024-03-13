@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+.부모{background-color: khaki;
+    height: 200px;
+    width: 300px;
+    box-sizing: border-box;
+    /* 영역 width안에 padding과 border를 포함 */
+padding: 20px; border: 10px solid rgb(107, 209, 107);
+
+}
+.부모 div{background-color: mediumpurple;}
+
+.부모 div a{background-color: navy;}
+/* a 태그는 inline요소 */

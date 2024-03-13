@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0;}
+.약::after{content: "";  clear: both; display: block;}
+
+#전체{background-color: gray;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-sizing: border-box;}
+
+#전체 .첫째 .첫일{background-color: green;
+height: 200px;
+width: 21.25%;
+float: left;
+margin-right: 5%; 
+
+}
+
+#전체 .첫째 .첫이{background-color: green;
+height: 200px;
+width: 21.25%;
+float: left;
+margin-right: 5%; 
+
+}
+
+#전체 .첫째 .첫삼{background-color: green;
+height: 200px;
+width: 21.25%;
+float: left;
+margin-right: 5%; 
+
+}
+
+
+#전체 .첫째 .첫사{background-color: green;
+    height: 200px;
+    width: 21.25%;
+    float: left;
+
+}
+
+
+#전체 .둘째{background-color: orange;
+    padding: 10px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+
+#전체 .둘째 .일동{background-color: green;
+    height: 200px;
+    width: 21.25%;
+    float: left;
+    margin-right: 5%; 
+    
+    }
+    
+#전체 .둘째 .이동{background-color: green;
+    height: 200px;
+    width: 21.25%;
+    float: left;
+    margin-right: 5%; 
+    
+    }
+    
+#전체 .둘째 .삼동{background-color: green;
+    height: 200px;
+    width: 21.25%;
+    float: left;
+    margin-right: 5%; 
+    
+    }
+    
+    
+ #전체 .둘째 .사동{background-color: green;
+        height: 200px;
+        width: 21.25%;
+        float: left;
+
+    }
+            
+#전체 .둘째 .오동{background-color: lemonchiffon;
+    text-align: center;
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    margin: 10px auto auto 0;
+    box-sizing: border-box;
+
+}
+
+#전체 .셋째{margin-top: 50px; margin-bottom: 20px;}
+
+#전체 .셋째 .육동{background-color: green;
+    float: left;
+    height: 200px;
+    width: 75%;
+    margin-right: 5%;
+}
+
+#전체 .셋째 .칠동{background-color: green;
+float: left;
+height: 200px;
+width: 20%;
+
+}
